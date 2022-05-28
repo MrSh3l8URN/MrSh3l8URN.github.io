@@ -5,7 +5,7 @@ SkyTalkers is a site where you can learn, chat anonymously and hire services wit
 <br>
 
 ### 🛠 Status
-This site is under construction so some files attached to GitHub are not visible on the Website.
+This site is under construction, so some files attached to GitHub are not visible on the Website.
 
 <br>
 
