@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SkyTalkers</title>
+        <link href="/public/img/logo.ico" rel="icon" type="image/icon"/>
+	<meta name="author" content="Zepplin">
+	<meta name="robots" content="all" />
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="2 days">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="no-cache">
+    </head>
+    <body>
+	<div class="navigate">
+		<a href="/home.html"><h2>SkyTalkers</h2></a>	
+		<form>
+			<a href="/CyberBank.html">Security/Hacking Information</a>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			<a href="/hire.html">Hire</a>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			<a href="#">Chat</a>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+	</div>			
+			<div class="dropdown">
+				<button class="drop-button">Options</button>
+				<div class="drop-content">
+					<a href="#">Profile</a>
+					<br>					
+					<a href="#">Settings</a>
+					<br>					
+					<a href="#">Sign Out</a>				
+				</div>
+			</div>		
+		</form>
+	<div class="inf">
+		<h2 id="anonymity-on-linux">Anonymity on Linux</h2>
+		<p><br></p>
+		<h4 id="physical">Physical</h4>
+		<h6 id="-lock-bios-with-password">[&gt;] Lock BIOS with Password</h6>
+		<h6 id="-cover-your-camera">[&gt;] Cover your camera</h6>
+		<h6 id="-cover-the-microphone-s">[&gt;] Cover the microphone/s</h6>
+		<h6 id="-remove-the-gps-card">[&gt;] Remove the GPS card</h6>
+		<p><br></p>
+		<h3 id="router-security">Router Security</h3>
+		<h6 id="-disable-wps-function">[&gt;] Disable WPS function</h6>
+		<h6 id="-disable-broadcast-ssid">[&gt;] Disable Broadcast SSID</h6>
+		<h6 id="-set-a-secure-wpa2-password">[&gt;] Set a Secure WPA2 Password</h6>
+		<h6 id="-maximum-firewall-security">[&gt;] Maximum Firewall Security</h6>
+		<h6 id="-paid-vpn">[&gt;] Paid VPN</h6>
+		<h6 id="-disable-log-s">[&gt;] Disable Log&#39;s</h6>
+		<p><br></p>
+		<h3 id="why-linux-distro-">Why Linux Distro?</h3>
+		<h6 id="linux-systems-are-rarely-infected-by-malware-such-as-viruses-worms-etc-thereby-making-it-as-a-very-secure-os-as-a-normal-user-we-will-never-come-across-a-situation-where-antivirus-software-is-been-sold-for-linux-this-means-linux-is-inherently-secure-and-there-are-many-reasons-associated-with-it-">Linux systems are rarely infected by malware such as viruses, worms etc, thereby making it as a very secure OS. As a normal user, we will never come across a situation where Antivirus software is been sold for Linux. This means, Linux is inherently secure and there are many reasons associated with it.</h6>
+		<p><br></p>
+		<h3 id="encrypt-your-drive">Encrypt your Drive</h3>
+		<h6 id="cryptography-deals-with-the-construction-and-analysis-of-protocols-that-prevent-third-parties-from-reading-private-messages-various-aspects-of-information-security-such-as-confidentiality-integrity-and-authentication-of-data-are-central-to-cryptography-applications-of-cryptography-include-e-commerce-chip-based-payment-cards-digital-currencies-computer-passwords-and-passworded-folders-">Cryptography deals with the construction and analysis of protocols that prevent third parties from reading private messages. Various aspects of information security , such as confidentiality , integrity and authentication of data are central to cryptography. Applications of cryptography include e-commerce , chip-based payment cards , digital currencies , computer passwords and passworded folders.</h6>
+		<h6 id="when-installing-a-linux-system-you-will-always-find-an-option-to-encrypt-the-disk-on-which-the-operating-system-will-be-installed-for-maximum-security-you-should-enable-this-option-thus-creating-a-strong-password-with-uppercase-and-lowercase-letters-numbers-and-symbols-">When installing a linux system, you will always find an option to encrypt the disk on which the operating system will be installed. For maximum security, you should enable this option, thus creating a strong password, with uppercase and lowercase letters, numbers and symbols.</h6>
+		<p><br></p>
+		<h3 id="change-mac-address">Change MAC Address</h3>
+		<h6 id="a-mac-address-is-a-number-used-to-uniquely-identify-your-device-on-the-local-network-segment-the-address-is-and-needs-to-be-visible-to-everyone-on-the-network-segment-but-because-of-the-way-network-routing-works-it-is-usually-not-visible-to-anyone-">A MAC Address is a number used to uniquely identify your device on the local network segment. The address is (and needs to be) visible to everyone on the network segment, but because of the way network routing works, it is usually not visible to anyone.</h6>
+		<p><code>ifconfig</code></p>
+		<p><code>ifconfig &lt;network card&gt; down</code></p>
+		<p><code>macchanger &lt;network card&gt; --mac=00:11:22:33:44:55</code> # UNIX MAC Address</p>
+		<p><code>ifconfig &lt;network card&gt; up</code></p>
+		<p><br></p>
+		<h3 id="install-ufw-firewall">Install UFW Firewall</h3>
+		<h6 id="ufw-or-uncomplicated-firewall-is-an-interface-to-iptables-designed-to-simplify-the-process-of-setting-up-a-firewall-ufw-is-a-solid-and-flexible-tool-for-any-kind-of-user-whether-a-beginner-or-a-professional-">UFW, or Uncomplicated Firewall, is an interface to iptables designed to simplify the process of setting up a firewall. UFW is a solid and flexible tool for any kind of user, whether a beginner or a professional.</h6>
+		<h4 id="gather-the-binaries">Gather the Binaries</h4>
+		<p><code>apt-get install ufw -y</code></p>
+		<h4 id="activate-ipv6">Activate IPv6</h4>
+		<p><code>sudo vi /etc/default/ufw</code></p>
+		<p><code># In &quot;IPV6=no&quot; you change for &quot;IPV6=yes&quot;</code></p>
+		<h4 id="configuring-policies">Configuring Policies</h4>
+		<p><code>sudo ufw default deny incoming</code></p>
+		<p><code>sudo ufw default allow outgoing</code></p>
+		<h4 id="enable-ssh-connections">Enable SSH connections</h4>
+		<p><code>sudo ufw allow ssh</code></p>
+		<p><code>sudo ufw allow 22</code></p>
+		<p><code>sudo ufw allow 2222</code></p>
+		<h4 id="enable-ufw-firewall">Enable UFW Firewall</h4>
+		<p><code>sudo ufw enable</code></p>
+		<p><code>sudo ufw status verbose</code></p>
+		<p><br></p>
+		<h3 id="install-noip-service">Install NoIP Service</h3>
+		<h6 id="no-ip-provides-dynamic-dns-services-a-basic-one-is-provided-free-of-charge-as-long-as-the-user-updates-his-access-from-time-to-time-keeping-it-active-upgrades-to-ddns-come-with-purchases-dynamic-ip-addresses-are-common-in-residential-cable-or-dsl-broadband-accounts-and-typical-ddns-users-would-be-users-of-these-types-of-internet-connections-the-service-allows-users-to-create-up-to-three-host-names-in-a-no-ip-domain-software-clients-are-provided-for-windows-os-x-and-linux-which-allows-ddns-to-connect-to-these-operating-systems-more-often-however-routers-are-used-in-such-ddns-setups-">No-IP provides dynamic DNS services . A basic one is provided free of charge, as long as the user updates his access from time to time, keeping it active. Upgrades to DDNS come with purchases. Dynamic IP addresses are common in residential cable or DSL broadband accounts, and typical DDNS users would be users of these types of Internet connections. The service allows users to create up to three host names in a No-IP domain. Software clients are provided for Windows, OS X and Linux, which allows DDNS to connect to these operating systems. More often, however, routers are used in such DDNS setups.</h6>
+		<h4 id="create-account">Create Account</h4>
+		<h6 id="-go-to-the-noip-website-and-create-an-account">[&gt;] Go to the NoIP website and create an account</h6>
+		<h6 id="-check-your-email-for-the-verification-and-click-the-link-">[&gt;] Check your email for the verification and click the link.</h6>
+		<h6 id="-log-out-log-in-again-and-create-a-userid">[&gt;] Log out / Log in again and create a userid</h6>
+		<h6 id="-create-a-dyndns-entry">[&gt;] Create a DynDNS entry</h6>
+		<h4 id="gather-the-binaries">Gather the Binaries</h4>
+		<p><code>sudo apt-get update</code></p>
+		<p><code>sudo apt-get install make gcc g++ zlib1g-dev</code></p>
+		<p><code>sudo bash</code></p>
+		<p><code>cd /usr/local/src/</code></p>
+		<p><code>wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz</code></p>
+		<p><code>tar xf noip-duc-linux.tar.gz</code></p>
+		<p><code>cd noip-2.1.9-1/</code></p>
+		<p><code>make install</code></p>
+		<p><code>Select your Network Card</code></p>
+		<p><code>Set your Login Info</code></p>
+		<p><code>noip2</code></p>
+		<p><code>exit</code></p>
+		<h4 id="configure-noip-service">Configure NoIP Service</h4>
+		<p><code>sudo noip2 -S</code></p>
+		<p><code>sudo noip2 -K {process_num}</code></p>
+		<p><code>cd ~/src</code></p>
+		<p><code>repo=https://gist.github.com/NathanGiesbrecht/da6560f21e55178bcea7fdd9ca2e39b5</code></p>
+		<p><code>git clone $repo noip.svc</code></p>
+		<p><code>cd ~/src/noip.svc</code></p>
+		<p><code>sudo cp noip2.service /etc/systemd/system</code></p>
+		<h4 id="enable-noip-service">Enable NoIP Service</h4>
+		<p><code>sudo systemctl enable noip2</code></p>
+		<p><code>sudo systemctl start noip2</code></p>
+		<p><br></p>
+		<h3 id="install-i2p-service">Install I2P Service</h3>
+		<h6 id="i2p-is-an-overlay-network-and-darknet-that-allows-software-applications-to-send-and-receive-messages-to-others-on-the-network-and-securely-under-pseudonyms-uses-include-websites-blogs-online-sales-sites-and-file-transfer-since-i2p-is-an-anonymous-network-it-is-designed-to-be-used-by-other-software-as-a-communication-channel-and-so-there-are-a-variety-of-applications-available-or-under-development-that-use-i2p-internally-">I2P is an overlay network and darknet that allows software applications to send and receive messages to others on the network and securely under pseudonyms. Uses include websites, blogs, online sales sites, and file transfer. Since I2P is an anonymous network, it is designed to be used by other software as a communication channel. And so there are a variety of applications available or under development that use I2P internally.</h6>
+		<h4 id="gather-the-binaries">Gather the Binaries</h4>
+		<p><code>sudo apt-add-repository ppa:i2p-maintainers/i2p</code></p>
+		<p><code>sudo apt-get update</code></p>
+		<p><code>sudo apt-get install i2p</code></p>
+		<p><code>systemctl status i2p.service</code></p>
+		<h4 id="handle-hosts-file">Handle hosts file</h4>
+		<p><code>sudo systemctl stop lighttpd.service</code></p>
+		<p><code>sudo systemctl stop i2p.service</code></p>
+		<p><code>sudo chown i2psvc:www-data ~i2psvc/i2p-config/eepsite/docroot/hosts.txt</code></p>
+		<p><code>sudo ln -s ~i2psvc/i2p-config/eepsite/docroot/hosts.txt ~www-data/html/hosts.txt</code></p>
+		<h4 id="start-service">Start Service</h4>
+		<p><code>sudo systemctl start lighttpd.service</code></p>
+		<p><code>sudo systemctl start i2p.service</code></p>
+		<p><br></p>
+		<h3 id="install-tor-network">Install TOR Network</h3>
+		<h6 id="tor-network-is-a-service-that-provides-a-browser-bridges-and-proxies-for-users-to-access-the-internet-with-as-much-privacy-as-possible-tor-routes-traffic-through-multiple-servers-and-encrypts-it-every-step-of-the-way-the-tor-network-is-a-decentralized-service-meaning-that-the-tor-network-can-be-operated-by-entities-with-diverse-interests-and-assumptions-of-trust-and-is-thus-an-open-source-service-">Tor Network is a service that provides a browser, bridges, and proxies for users to access the Internet with as much privacy as possible. Tor routes traffic through multiple servers and encrypts it every step of the way. The Tor Network is a decentralized service, meaning that the Tor Network can be operated by entities with diverse interests and assumptions of trust... and is thus an open source service.</h6>
+		<h4 id="install-tor-service">Install Tor Service</h4>
+		<p><code>sudo apt-get install tor</code></p>
+		<h4 id="install-tor-browser">Install Tor Browser</h4>
+		<p><code>sudo apt-get install torbrowser-launcher</code></p>
+		<h4 id="start-tor-service">Start Tor Service</h4>
+		<p><code>sudo service tor start</code></p>
+		<p><br></p>
+		<h3 id="configure-tor-browser">Configure Tor Browser</h3>
+		<h4 id="settings">Settings</h4>
+		<h6 id="-go-to-about-preferences-search-and-select-duckduckgoonion-in-the-default-search-engine-">[&gt;] Go to &quot;about:preferences#search&quot; and select &#39;DuckDuckGoOnion&#39; in the &#39;Default Search Engine&#39;</h6>
+		<h6 id="-go-to-about-preferences-privacy-and-select-the-always-option-in-onion-services-">[&gt;] Go to &quot;about:preferences#privacy&quot; and select the &#39;Always&#39; option in &#39;Onion services&#39;</h6>
+		<h6 id="-still-in-about-preferences-privacy-go-to-permissions-and-in-each-of-the-options-go-to-settings-and-select-block-new-requests-asking-to-">[&gt;] Still in &quot;about:preferences#privacy&quot; go to &#39;Permissions&#39; and in each of the options go to &#39;Settings...&#39; and select &#39;Block new requests asking to...&#39;</h6>
+		<h6 id="-also-in-about-preferences-privacy-scroll-down-to-security-and-select-the-safer-option-because-the-safest-option-has-some-incompatibilities-with-some-sites-because-the-option-disables-javascript-on-all-sites-and-also-disables-some-fonts-icons-math-symbols-and-images-that-are-required-">[&gt;] Also in &quot;about:preferences#privacy&quot; scroll down to &#39;Security&#39; and select the &#39;Safer&#39; option, because the &#39;Safest&#39; option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.</h6>
+		<h6 id="-to-end-up-in-about-preferences-privacy-go-to-deceptive-content-and-dangerous-software-protection-and-enable-the-options-block-dangerous-and-deceptive-content-block-dangerous-downloads-and-warn-you-about-unindeseed-and-uncommonmon-software-">[&gt;] To end up in &quot;about:preferences#privacy&quot; go to &#39;Deceptive Content and Dangerous Software Protection&#39; and enable the options &#39;Block Dangerous and Deceptive Content&#39; , &#39;Block Dangerous downloads&#39; and &#39;Warn you about Unindeseed and Uncommonmon Software&#39;</h6>
+		<h4 id="install-extensions">Install Extensions</h4>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/">Privacy Badger</a>
+		<br>
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a>
+		<br>		
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/noscript/">NoScript Security Suite</a>
+		<br>
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/">HTTPS Everywhere</a>
+		<br>
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/">User-Agent Switcher and Manager</a>
+		<br>
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/clearurls/">ClearURLs</a>
+		<br>
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/">Dont track me Google</a>
+		<br>
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">Disable WebRTC</a>
+		<br>
+		<br>
+		<a href="https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/">LastPass Password Manager</a>
+		<p><br></p>
+		
+		<h3 id="passwords">Passwords</h3>
+		<h6 id="-always-create-different-passwords-for-different-sites">[&gt;] Always create different passwords for different sites</h6>
+		<h6 id="-always-create-passwords-with-8-characters-these-are-uppercase-lowercase-numeric-and-symbols">[&gt;] Always create passwords with +8 characters, these are uppercase, lowercase, numeric and symbols</h6>
+		<h6 id="-use-a-good-password-manager-like-lastpass-password-manager-or-bitwarden-free-password-manager-">[&gt;] Use a good Password Manager like &quot;LastPass Password Manager&quot; or &quot;Bitwarden - Free Password Manager&quot;</h6>
+		<p><br></p>
+		<h3 id="create-a-encrypted-folder">Create a Encrypted Folder</h3>
+		<h4 id="gather-the-binaries">Gather the Binaries</h4>
+		<p><code>sudo add-apt-repository ppa:gencfsm</code></p>
+		<h4 id="install-binaries">Install Binaries</h4>
+		<p><code>sudo apt update</code></p>
+		<p><code>sudo apt install gnome-encfs-manager</code></p>
+		<h4 id="create-a-folder">Create a Folder</h4>
+		<p><code>gnome-encfs-manager create_stash &lt;Directory to Encrypt&gt; &lt;Mount directory&gt;</code></p>
+		<h5 id="example-">Example:</h5>
+		<p><code>gnome-encfs-manager create_stash /home/username/.Encrypt /home/username/Encrypt</code></p>
+		<h4 id="unmount-folder">Unmount Folder</h4>
+		<p><code>gnome-encfs-manager unmount &lt;Mount directory&gt;</code> # A folder becomes Invisible</p>
+		<h4 id="mount-folder">Mount Folder</h4>
+		<p><code>gnome-encfs-manager mount &lt;Mount directory&gt;</code> # A folder becomes Visible</p>
+		<p><br></p>
+		<h3 id="create-a-encrypted-notes">Create a Encrypted Notes</h3>
+		<h4 id="gather-the-binaries">Gather the Binaries</h4>
+		<p><code>sudo add-apt-repository ppa:nilarimogard/webupd8</code></p>
+		<h4 id="install-binaries">Install Binaries</h4>
+		<p><code>sudo apt-get update</code></p>
+		<p><code>sudo apt install encryptpad encryptcli</code></p>
+		<h4 id="start-encryptpad">Start EncryptPad</h4>
+		<p><code>encryptpad</code></p>
+		<p><br></p>
+		<h3 id="create-a-new-online-identity">Create a new Online Identity</h3>
+		<h6 id="deleting-your-information-and-creating-false-ones-will-anonymize-your-personal-data-name-age-gender-and-you-will-be-able-to-create-a-new-person-online-so-that-you-can-hide-who-you-really-are">Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new &quot;Person&quot; online, so that you can hide who you really are</h6>
+		<h4 id="delete-your-information-from-google">Delete your Information from Google</h4>
+		<h5 id="remove-data-from-google">Remove Data from Google</h5>
+		<h6 id="-change-all-personal-information">[&gt;] Change all Personal Information</h6>
+		<h6 id="-remove-all-content-from-google-drive">[&gt;] Remove all content from Google Drive</h6>
+		<h6 id="-remove-all-content-from-youtube-studio">[&gt;] Remove all content from YouTube Studio</h6>
+		<h6 id="-delete-your-google-profile">[&gt;] Delete your Google+ Profile</h6>
+		<h6 id="-delete-all-your-gmail-e-mails">[&gt;] Delete all your Gmail e-mails</h6>
+		<a href="https://myaccount.google.com/deleteservices">Delete Services</a>
+		<br>
+		<br>
+		<a href="https://myactivity.google.com/item">Delete Items Data</a>
+		<br>
+		<br>		
+		<a href="https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity">Account Permitions</a>
+		<br>
+		<br>
+		<a href="https://myaccount.google.com/deleteaccount">Delete Account</a>
+		<h4 id="delete-your-information-from-meta">Delete your Information from META</h4>
+		<h5 id="remove-facebook-data">Remove Facebook Data</h5>
+		<a href="https://m.facebook.com/off_facebook_activity/">Turn Off Facebook Activity/</a>
+		<br>
+		<br>
+		<a href="https://www.facebook.com/help/delete_account/">Delete Account</a>
+		<h5 id="remove-instagram-data">Remove Instagram Data</h5>
+		<a href="https://www.instagram.com/download/request/">Request Data</a>
+		<h6 id="-change-profile-informations">[&gt;] Change Profile Informations</h6>
+		<a href="https://www.instagram.com/accounts/remove/request/permanent/">Delete Account</a>
+		<br>
+		<br>
+		<h4 id="create-a-fake-id">Create a Fake ID</h4>
+		<a href="https://datafakegenerator.com/generador.php">Fake ID</a>
+		<br>		
+		<br>
+		<a href="http://deepmexzsejpzqid3k7knaas2p73dko6kxgpou7oey7vqtmrhopjyqyd.onion/free-republic/id-cards">Buy a FAKE National Identity Card, for Online Shopping ONLY</a>
+		<br>
+		<br>
+		<a href="https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/">Onion ProtonMail</a>
+		<br>
+		<br>
+		<a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&amp;hl=en_EN&amp;dsh=S671161644%3A1648763270630717&amp;biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp">Google Account</a>
+		<br>
+		<br>
+		<a href="https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/">Onion Facebook</a>
+		<p><br></p>
+		<h3 id="secure-communication">Secure Communication</h3>
+		<h6>Secure communication includes means by which people can share information with varying degrees of certainty that third parties cannot intercept what is said. Other than spoken face-to-face communication with no possible eavesdropper, it is probably safe to say that no communication is guaranteed to be secure in this sense, although practical obstacles such as legislation, resources, technical issues (interception and encryption), and the sheer volume of communication serve to limit surveillance. </h6>
+		<h5 id="pidgin-messenger">Pidgin Messenger</h5>
+		<h6 id="pidgin-is-a-chat-program-that-allows-you-to-log-into-accounts-on-multiple-chat-networks-simultaneously-this-means-that-you-can-be-chatting-with-friends-in-xmpp-and-sitting-in-an-irc-channel-at-the-same-time-">Pidgin is a chat program that allows you to log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends in XMPP and sitting in an IRC channel at the same time.</h6>
+		<h5 id="install-pidgin">Install Pidgin</h5>
+		<p><code>sudo apt-get install pidgin</code></p>
+		<h5 id="run-pidgin">Run Pidgin</h5>
+		<p><code>sudo pidgin</code></p>
+		<p><br></p>
+		<h3 id="create-a-cryptowallet">Create a CryptoWallet</h3>
+		<h5 id="cryptocurrencies">Cryptocurrencies</h5>
+		<h6 id="a-cryptocurrency-is-a-medium-of-exchange-which-can-be-centralized-or-decentralized-that-uses-blockchain-technology-and-cryptography-to-ensure-the-validity-of-transactions-and-the-creation-of-new-units-of-the-currency-">A cryptocurrency is a medium of exchange, which can be centralized or decentralized that uses blockchain technology and cryptography to ensure the validity of transactions and the creation of new units of the currency.</h6>
+		<h5 id="blockchain">BlockChain</h5>
+		<h6 id="blockchain-is-a-distributed-ledger-technology-that-aims-at-decentralization-as-a-security-measure-it-is-a-distributed-and-shared-database-that-has-the-function-of-creating-a-global-index-for-all-transactions-that-occur-in-a-given-market-it-works-like-a-ledger-but-in-a-public-shared-and-universal-way-which-creates-consensus-and-trust-in-direct-communication-between-two-parties-that-is-without-the-intermediation-of-third-parties-such-as-the-government-">Blockchain is a distributed ledger technology that aims at decentralization as a security measure. It is a distributed and shared database that has the function of creating a global index for all transactions that occur in a given market. It works like a ledger, but in a public, shared, and universal way, which creates consensus and trust in direct communication between two parties, that is, without the intermediation of third parties such as the government.</h6>
+		<h5 id="bitcoin">Bitcoin</h5>
+		<h6 id="bitcoin-allows-financial-transactions-without-intermediaries-but-verified-by-all-users-of-the-network-which-are-recorded-in-a-blockchain-bitcoin-is-a-decentralized-network-that-is-a-structure-without-a-central-managing-entity-which-makes-it-impossible-for-any-financial-or-governmental-authority-to-manipulate-the-issuance-and-value-of-the-cryptocurrency-or-to-induce-inflation-by-producing-more-money-">Bitcoin allows financial transactions without intermediaries, but verified by all users of the network, which are recorded in a blockchain. Bitcoin is a decentralized network, that is, a structure without a central managing entity, which makes it impossible for any financial or governmental authority to manipulate the issuance and value of the cryptocurrency or to induce inflation by producing more money.</h6>
+		<h5 id="ethereum">Ethereum</h5>
+		<h6 id="ethereum-is-a-decentralized-platform-capable-of-running-smart-contracts-and-decentralized-applications-using-blockchain-technology-these-are-applications-that-run-exactly-as-programmed-without-any-possibility-of-censorship-fraud-or-interference-from-third-parties-because-the-contract-is-immutable-">Ethereum is a decentralized platform capable of running smart contracts and decentralized applications using blockchain technology. These are applications that run exactly as programmed without any possibility of censorship, fraud, or interference from third parties, because the contract is immutable.</h6>
+		<h4 id="install-dependencies">Install Dependencies</h4>
+		<p><code>https://download.electrum.org/4.2.1/Electrum-4.2.1.tar.gz</code></p>
+		<h4 id="install-python-pip">Install python-pip</h4>
+		<p><code>sudo apt-get install python3 &amp;&amp; sudo apt-get install python2</code></p>
+		<p><code>sudo apt-get install python3-setuptools python3-pip</code></p>
+		<p><code>python3 -m pip install --user Electrum-4.2.1.tar.gz</code></p>
+		<h4 id="download-package">Download Package</h4>
+		<p><code>tar -xvf Electrum-4.2.1.tar.gz</code></p>
+		<p><code>cd Electrum-4.2.1/</code></p>
+		<p><code>python3 -m pip install setup.py</code></p>
+		<p><code>chmod +x ./run_electrum</code></p>
+		<h4 id="start-cryptowallet">Start CryptoWallet</h4>
+		<p><code>./run_electrum</code></p>
+		<h4 id="creating-a-account">Creating a Account</h4>
+		<h6 id="-select-where-you-want-to-have-your-wallet">[&gt;] Select where you want to have your Wallet</h6>
+		<h6 id="-set-a-password">[&gt;] Set a Password</h6>
+		<h6 id="-select-the-wallet-with-two-factor-authentication-option">[&gt;] Select the &#39;Wallet with two-factor authentication&#39; option</h6>
+		<h6 id="-select-the-create-a-new-seed-option">[&gt;] Select the &#39;Create a new seed&#39; option</h6>
+		<h6 id="-select-the-segwit-option">[&gt;] Select the &#39;Segwit&#39; option</h6>
+		<h6 id="-guarde-a-sua-semente-num-sitio-seguro-">[&gt;] Guarde a sua semente num sitio SEGURO.</h6>
+		<h6 id="-paste-the-seed">[&gt;] Paste the Seed</h6>
+		<h6 id="-set-a-password">[&gt;] Set a Password</h6>
+		<h6 id="-confirm-password">[&gt;] Confirm Password</h6>
+		<h6 id="-select-the-encrypt-wallet-file-option">[&gt;] Select the &#39;Encrypt wallet file&#39; option</h6>
+		<h6 id="-enter-your-email-address">[&gt;] Enter your Email Address</h6>
+		<h6 id="-install-google-authenticator-on-your-smartphone">[&gt;] Install Google Authenticator on your Smartphone</h6>
+		<h6 id="-follow-the-instructions">[&gt;] Follow the instructions</h6>
+		<h6 id="-click-on-button">[&gt;] Click on &#39;+&#39; button</h6>
+		<h6 id="-click-in-scan-barcode-">[&gt;] Click in &#39;Scan barcode&#39;</h6>
+		<h6 id="-scan-the-qr-code-of-the-wallet">[&gt;] Scan the QR Code of the Wallet</h6>
+		<h6 id="-paste-the-6-num-code-in-wallet">[&gt;] Paste the 6-num. Code in Wallet</h6>
+		<h4 id="buy-bitcoin">Buy Bitcoin</h4>
+		<a href="https://bitcoin.org/en/buy">Bitcoin Store</a>
+		<h6 id="-set-the-amount">[&gt;] Set the Amount</h6>
+		<h6 id="-enter-your-wallet-address">[&gt;] Enter your Wallet Address</h6>
+		<h6 id="-enter-your-email-address">[&gt;] Enter your Email Address</h6>
+		<h6 id="-enter-the-verification-code-in-your-email-box">[&gt;] Enter the Verification Code in your Email-Box</h6>
+		<h6 id="-select-select-the-check-boxes-you-want">[&gt;] Select Select the Check Boxes you want</h6>
+		<h6 id="-set-your-fake-informations">[&gt;] Set your FAKE Informations</h6>
+		<h6 id="-upload-your-fake-national-identify-card">[&gt;] Upload your FAKE National Identify Card</h6>
+		<h6 id="-select-the-payment-method">[&gt;] Select the Payment Method</h6>
+		<h6 id="-follow-the-rest-of-the-instructions-">[&gt;] Follow the rest of the instructions.</h6>
+		<p><br></p>
+		<h3 id="clean-cache-temp-data">Clean Cache/Temp Data</h3>
+		<h4 id="gathering-the-binnaries">Gathering the Binnaries</h4>
+		<a href="https://www.bleachbit.org/download/linux">Bleachbit</a>
+		<h4 id="install-deb-file">Install Deb File</h4>
+		<p><code>sudo dpkg --install &lt;deb file name&gt;</code></p>
+		<h4 id="start-programm">Start Programm</h4>
+		<p><code>bleachbit</code></p>
+		<h4 id="select-all-of-">Select all of:</h4>
+		<h6 id="-autoclean">[&gt;] Autoclean</h6>
+		<h6 id="-autoremove">[&gt;] Autoremove</h6>
+		<h6 id="-clean">[&gt;] Clean</h6>
+		<h6 id="-cache">[&gt;] Cache</h6>
+		<h6 id="-vacuum">[&gt;] Vacuum</h6>
+		<h6 id="-temporary-files">[&gt;] Temporary Files</h6>
+		<h6 id="-free-disk-space">[&gt;] Free Disk Space</h6>
+		<h6 id="-localizations">[&gt;] Localizations</h6>
+		<h6 id="-rotated-logs">[&gt;] Rotated logs</h6>
+		<h6 id="-trash">[&gt;] Trash</h6>
+		<h4 id="clean-all-selected-options">Clean all Selected Options</h4>
+		<h6 id="click-on-clean-button-">Click on &#39;Clean&#39; button.</h6>
+	
+	</div>
+    </body>
+    <style>
+	body {
+		margin:0;
+		padding:0;
+		font-family: sans-serif;
+		background: linear-gradient(#141e30, #243b55);
+
+	}
+	.navigate {
+		background-color: #0f1624;
+		height: 35px;
+		box-sizing: border-box;
+		box-shadow: 0 2.5px 5.5px rgba(0,0,0,.5);
+		border-radius: 3px;
+	
+	}
+	.navigate h2  {
+		position: absolute;
+		margin-top: 3.5px;
+		margin-left: 14px;
+		display: inline-block;
+		padding: 2px 4px;
+		color: #03e9f4;
+		font-size: 24px;
+		font-family: "Brush Script MT", cursive;
+		text-decoration: none;
+		overflow: hidden;
+		transition: 0.5s;
+	}
+	.navigate h2:hover {
+		background: #03e9f4;
+		color: #fff;
+		border-radius: 100px;
+		box-shadow: 0 0 1px #03e9f4,
+		 	    0 0 2px #03e9f4,
+			    0 0 3px #03e9f4,
+			    0 0 5px #03e9f4,
+			    0 0 7px #03e9f4,
+			    0 0 9px #03e9f4,
+			    0 0 10px #03e9f4;
+	}
+	.navigate form a {
+		position: relative;
+		left: 200px;
+		display: inline-block;
+		padding: 1px 2px;
+		color: #03e9f4;
+		font-size: 12px;
+		text-decoration: none;
+		text-transform: uppercase;
+		overflow: hidden;
+		transition: .5s;
+		margin-top: 9px;
+		margin-left: 12px;
+		letter-spacing: 2px;
+	}
+	.navigate a:hover {
+		background: #03e9f4;
+		color: #fff;
+		border-radius: 3px;
+		box-shadow: 0 0 5px #03e9f4,
+			    0 0 10px #03e9f4,
+			    0 0 15px #03e9f4;
+	}	
+	.drop-button {
+		background-color: #0f1624;
+		color: #03e9f4;
+		position: relative;
+		top: -7px;
+		font-size: 12px;
+		border: none;
+		text-transform: uppercase;
+	}
+	.drop-button:hover {
+		background: #03e9f4;
+		color: #fff;
+		border-radius: 3px;
+		box-shadow: 0 0 5px #03e9f4,
+			    0 0 10px #03e9f4,
+			    0 0 15px #03e9f4;
+		transition: .5s;
+	}
+	.signout-button {
+		position: relative;	
+		top: 7px;	
+		background-color: #0f1624;
+		color: #03e9f4;
+		border: none;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	.dropdown {
+		position: relative;
+		top: -20px;
+		left: 860px;
+		display: inline-block;	
+		cursor: pointer;
+	}
+	.drop-content {
+		position: relative;
+		top: 3px;
+		left: 0px;
+		display: none;
+		background-color: #0f1624;
+		color: #03e9f4;
+		box-shadow: 0px 4.5px 7.5px rgba(0,0,0,.5);
+		z-index: 1;
+		text-decoration: none;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		height: 80px;
+	}
+	.drop-content a {
+		position: relative;
+		top: 4px;
+		display: block;		
+		background-color: #0f1624;
+		color: #03e9f4;
+		text-decoration: none;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 2px;		
+	}
+	.drop-content a:hover {
+		background: #03e9f4;
+		color: #fff;
+		border-radius: 3px;
+		box-shadow: 0 0 5px #03e9f4,
+			    0 0 10px #03e9f4,
+			    0 0 15px #03e9f4;
+	}
+	.dropdown:hover .drop-content {
+		display: block;
+	}
+	.dropdown:hover .drop-button {
+		background-color: #0f1424
+	}
+	.inf h2 {
+		color: #03e9f4;
+		position: ablosute;
+		margin-left: 30px;
+		display: inline-block;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 17px;
+	}
+	.inf h3 {
+		color: #03e9f4;
+		position: relative;
+		margin-left: 30px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 14px;
+	}
+	.inf h4 {
+		color: #03acf4;
+		position: relative;
+		margin-left: 30px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 13px;
+	}
+	.inf h5 {
+		color: #03acf4;
+		position: relative;
+		margin-left: 30px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 13px;
+	}
+	.inf h6 {
+		color: #9c9c8a;
+		position: relative;
+		margin-left: 30px;
+		margin-right: 30px;
+		font-size: 13px;
+	}
+	.inf p {
+		color: #9c9c8a;
+		position: relative;
+		margin-left: 30px;
+		margin-right: 30px;
+		font-size: 13px;
+	}
+	.inf a {
+		overflow: hidden;
+		position: relative;
+		margin-left: 30px;
+		text-transform: uppercase;
+		letter-spacing: .5px;
+		color: #0399cf;
+		font-size: 12px;
+	}
+    </style>
+</html>
